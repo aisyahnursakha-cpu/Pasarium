@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    font-family: dm sans;
+}
+
+/* button */
+.btn-utama {
+    background-color: #119DA4 !important;
+    color: white !important;
+}
+
+.btn-utama:hover {
+    box-shadow: 0px 10px 10px rgba(12, 169, 143, 0.2);
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-link {
+    color: black;
+    cursor: pointer;
+    transition: color 0.02 ease;
+}
+
+.nav-link:hover{
+    color: #119DA4;
+     text-decoration: underline;
+}
+
+.text-link {
+    color: #119DA4;
+   
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0);
+}
+
+.navbar-brand img {
+    width: 70%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+/* navbar */
+
+/* hero */
+
+#hero {
+    margin-top: 100px;
+}
+
+#hero h1 {
+    font-size: 60px;
+}
+
+#hero img {
+    width: 100%;
+}
+/* hero */
+
+#layanan {
+    margin-top: 100px;
+}
+
+#layanan .card {
+    border: none;
+    border-radius: 10px;
+}
+
+#layanan .card:hover {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+   
+}
+
+#layanan .card-title {
+    position: absolute;
+    bottom: 10px;
+
+}
+
+#profil {
+    margin-top:  100px;
+}
+
+#profil img {
+    width: 100%;
+}
+
+#profil span {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+#profil h1 {
+    font-size: 60px;
+}
+
+#profil p {
+    width: 90%;
+    text-align: justify;
+}
+
+/* porto */
+#porto {
+    margin-top: 100px;
+}
+
+#porto .card {
+    border: none;
+    border-radius: 10px;
+}
+/* porto */
+
+/* cta */
+#cta {
+    margin-top: 100px;
+}
+
+#cta .bg {
+    background-image: url('./assets/bg-cta.png');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* cta */
+
+/* footer */
+footer {
+    margin-top: 50px;
+    background-color: #119DA4;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+/* footer */
+
+/* mobile responsive */
+@media (max-width : 992px) {
+     #hero {
+        text-align: center;
+     }
+
+     #hero h1 {
+        font-size: 40px;
+     }
+
+     #hero img {
+        margin-top: 30px;
+     }
+
+     #layanan .card{
+        margin-top: 20px;
+        border-radius: 15px;
+     }
+
+     #profil {
+        text-align: center;
+     }
+
+     #profil h1 {
+        font-size: 40px;
+     }
+
+     #profil p {
+        width: 100%;
+     }
+
+     #porto .card {
+        margin-top: 20px;
+     }
+
+     #cta .bg {
+        font-size: 30px;
+        padding: 20px;
+     }
+
+     #cta h1 {
+        font-size: 35px;
+     }
+
+     #cta p {   
+        font-size: 14px;
+     }
+
+     footer {
+        color: white;
+        font-size: 14px;
+     }
+
+}
